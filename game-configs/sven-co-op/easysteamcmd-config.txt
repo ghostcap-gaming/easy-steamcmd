@@ -1,0 +1,5 @@
+APPID=276060
+STARTUP_COMMAND=svends -console -port 27015 +maxplayers 8 +map stadium4 +log on
+AUTO_UPDATE=1
+STEAM_LOGIN=
+STEAM_PASSWORD=

@@ -1,0 +1,5 @@
+APPID=3017310
+STARTUP_COMMAND=WSServer.exe Level01_Main -server %* -log -UTF8Output -MULTIHOME=0.0.0.0 -EchoPort=18888 -forcepassthrough
+AUTO_UPDATE=0
+STEAM_LOGIN=
+STEAM_PASSWORD=
