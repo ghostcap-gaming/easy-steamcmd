@@ -1,18 +1,15 @@
 @echo off
 setlocal enabledelayedexpansion
-
 color 0A
-
 set "configFile=easysteamcmd-config.txt"
 set "steamCmdUrl=https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip"
 set "steamCmdZip=steamcmd.zip"
 set "steamCmdFolder=steamcmd"
-
-for /f "tokens=1,2 delims==" %%a in (%configFile%) do (
+for /f "tokens=1,2* delims==" %%a in (%configFile%) do (
     if "%%a"=="APPID" (
         set appid=%%b
     ) else if "%%a"=="STARTUP_COMMAND" (
-        set startupCommand=%%b
+        set startupCommand=%%b=%%c
     ) else if "%%a"=="AUTO_UPDATE" (
         set autoUpdate=%%b
     ) else if "%%a"=="STEAM_LOGIN" (
@@ -21,7 +18,6 @@ for /f "tokens=1,2 delims==" %%a in (%configFile%) do (
         set steamPassword=%%b
     )
 )
-
 :: Display the current configuration
 echo.
 echo Easy SteamCMD - https://github.com/ghostcap-gaming
@@ -32,7 +28,6 @@ echo Auto Update: %autoUpdate%
 echo Steam Login: %steamLogin%
 echo __________________________________________________________________
 echo.
-
 if not exist "%steamCmdFolder%" (
     if not exist "%steamCmdZip%" (
         echo Downloading SteamCMD...
@@ -41,15 +36,12 @@ if not exist "%steamCmdFolder%" (
     echo Extracting SteamCMD...
     powershell -Command "Expand-Archive -Path '%steamCmdZip%' -DestinationPath '%steamCmdFolder%'"
 )
-
 set "steamCmd=%steamCmdFolder%\steamcmd.exe"
-
 if "%steamLogin%"=="" (
     set loginCmd=+login anonymous
 ) else (
     set loginCmd=+login %steamLogin% %steamPassword%
 )
-
 if "%autoUpdate%"=="1" (
     %steamCmd% %loginCmd% +force_install_dir ../  +app_update %appid% +quit
 ) else (
@@ -65,7 +57,6 @@ if "%autoUpdate%"=="1" (
         )
     )
 )
-
 :startup
 color 0A
 %startupCommand%
