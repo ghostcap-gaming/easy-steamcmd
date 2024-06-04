@@ -1,5 +1,5 @@
 APPID=3017310
-STARTUP_COMMAND=WSServer.exe Level01_Main -server %* -log -UTF8Output -MULTIHOME=0.0.0.0 -EchoPort=18888 -forcepassthrough
+STARTUP_COMMAND=WSServer.exe Level01_Main -server %* -SteamServerName="Servername" -MaxPlayers=10 -backup=300 -saving=420 -initbackup=true -backupinterval=30 -log -UTF8Output -MULTIHOME=0.0.0.0 -EchoPort=18888 -Port=7777 -QueryPort=27016 -forcepassthrough -PSW="password"
 AUTO_UPDATE=1
 STEAM_LOGIN=
 STEAM_PASSWORD=
