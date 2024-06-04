@@ -9,7 +9,7 @@ Easy SteamCMD is designed to simplify the process of setting up and managing gam
 
 ## Usage
 
-1. Download Easy SteamCMD.
+1. Download Easy SteamCMD from [here](https://github.com/ghostcap-gaming/easy-steamcmd/archive/refs/heads/main.zip).
 2. Place `easysteamcmd.bat` and `easysteamcmd-config.txt` into a folder where you want to install the game server.
 3. Edit `easysteamcmd-config.txt` with your game server `appid` and startup command.
 4. Double-click `easysteamcmd.bat` and watch the magic.
