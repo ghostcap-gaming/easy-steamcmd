@@ -1,0 +1,5 @@
+APPID=1829350
+STARTUP_COMMAND=VRisingServer.exe -persistentDataPath save-data -address 0.0.0.0
+AUTO_UPDATE=1
+STEAM_LOGIN=
+STEAM_PASSWORD=

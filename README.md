@@ -1,6 +1,6 @@
 # Easy SteamCMD
 
-Easy SteamCMD is designed to simplify the process of setting up and managing game servers using SteamCMD, specifically tailored for beginners and quick server setup. All you need to do is set 2 config options, run it, and Easy SteamCMD does the rest.
+Easy SteamCMD is specifically tailored for beginners and quick game server setup. All you need to do is set 2 config options, run it, and Easy SteamCMD does the rest.
 
 - Automatically downloads and extracts SteamCMD, saving time and effort.
 - Easily configure your game's startup command.
