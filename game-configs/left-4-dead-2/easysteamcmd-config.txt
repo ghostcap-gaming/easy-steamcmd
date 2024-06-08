@@ -1,0 +1,5 @@
+APPID=222860
+STARTUP_COMMAND=srcds.exe -console -game left4dead2 -secure -port 27015 +ip 0.0.0.0 +maxplayers 8 +map c1m1_hotel +hostname "Hosted With Easy SteamCMD" -norestart
+AUTO_UPDATE=1
+STEAM_LOGIN=
+STEAM_PASSWORD=

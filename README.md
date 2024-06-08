@@ -7,15 +7,17 @@ Easy SteamCMD is specifically tailored for beginners and quick game server setup
 - Checks if your server requires an update when starting and updates it accordingly.
 - No need for advanced scripting knowledge or for “Gurus” to release server software for your game.
 
-## Usage
+## How To Install
 
 1. Download Easy SteamCMD from [here](https://github.com/ghostcap-gaming/easy-steamcmd/archive/refs/heads/main.zip).
 2. Place `easysteamcmd.bat` and `easysteamcmd-config.txt` into a folder where you want to install the game server.
 3. Edit `easysteamcmd-config.txt` with your game server `appid` and startup command.
 4. Double-click `easysteamcmd.bat` and watch the magic.
 
-## Changing The Game
-We have a bunch of pre-made config files you can use [here](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs). Simply look for the game you want and then overwrite `easysteamcmd-config.txt` with the new config. To manually change the game you will need to get the APPID from sites like [SteamDB](https://steamdb.info/) and you will need to add your own startup command. You can usually find these online from any SteamCMD guide or from simply naming it the .exe file once the game downloads.
+## Supported Games
+We have a bunch of pre-made config files you can use [here](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs). Simply look for the game you want and then overwrite `easysteamcmd-config.txt` with the new config. 
+
+To manually change the game you will need to get the APPID from sites like [SteamDB](https://steamdb.info/) and you will need to add your own startup command. You can usually find these online from any SteamCMD guide or from simply naming it the .exe file once the game downloads.
 
 ## Config Explained
 
