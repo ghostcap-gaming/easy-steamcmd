@@ -21,6 +21,7 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 |---------------------|-----------------------|
 | Conan Exiles        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/conan-exiles/)         |
 | Counter-Strike: Source | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-source)         |
+| Counter-Strike 2 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-2)         |
 | Enshrouded          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/enshrouded)         |
 | Left 4 Dead 2       | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead-2)         |
 | Left 4 Dead         | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead)         |
@@ -41,5 +42,6 @@ For Easy SteamCMD, we use one simple config file called `easysteamcmd-config.txt
 | **APPID**           | The App ID for your game server. You can find these on sites like SteamDB. You can find a bunch of these pre-made here. |
 | **STARTUP_COMMAND** | The command that is used to start the game server. This is normally the .exe that is located once the game has finished downloading. You can find a bunch of these pre-made here. |
 | **AUTO_UPDATE**     | This allows you to toggle auto updates on or off by changing it to 1 or 0. If it's set to 0 you will have a chance to disable validation too. This is good if you have modified the game files. |
-| **STEAM_LOGIN/STEAM_PASSWORD** | (OPTIONAL) Some games require you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
+| **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. |
+| **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games require you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
 

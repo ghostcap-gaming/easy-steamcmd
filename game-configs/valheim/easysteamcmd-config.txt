@@ -1,5 +1,6 @@
 APPID=896660
 STARTUP_COMMAND=valheim_server -nographics -batchmode -name "Hosted With Easy SteamCMD" -port 2456 -world "myworld" -password "PASSWORD"
 AUTO_UPDATE=1
+VALIDATE=0
 STEAM_LOGIN=
 STEAM_PASSWORD=

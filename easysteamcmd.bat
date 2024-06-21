@@ -13,6 +13,8 @@ for /f "tokens=1* delims==" %%a in (%configFile%) do (
         set startupCommand=%%b
     ) else if "%%a"=="AUTO_UPDATE" (
         set autoUpdate=%%b
+    ) else if "%%a"=="VALIDATE" (
+        set validate=%%b
     ) else if "%%a"=="STEAM_LOGIN" (
         set steamLogin=%%b
     ) else if "%%a"=="STEAM_PASSWORD" (
@@ -30,6 +32,7 @@ echo.
 echo Game AppID: %appid%
 echo Startup Command: %startupCommand%
 echo Auto Update: %autoUpdate%
+echo Validate: %validate%
 echo Steam Login: %steamLogin%
 echo __________________________________________________________________
 echo.
@@ -52,22 +55,13 @@ if "%steamLogin%"=="" (
 )
 
 if "%autoUpdate%"=="1" (
-    %steamCmd% %loginCmd% +force_install_dir ../  +app_update %appid% +quit
-) else (
-    color 0E
-    choice /C YN /M "Do you want to update the server?"
-    if errorlevel 2 goto startup
-    if errorlevel 1 (
-        choice /C YN /M "Do you want to validate the files during the update?"
-        if errorlevel 2 (
-            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% +quit
-        ) else if errorlevel 1 (
-            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% validate +quit
-        )
+    if "%validate%"=="1" (
+        %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% validate +quit
+    ) else (
+        %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% +quit
     )
 )
 
 :startup
-color 0A
 %startupCommand%
 pause
