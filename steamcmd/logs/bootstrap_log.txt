@@ -1,6 +1,0 @@
-
-
-[2024-06-21 18:05:49] Startup - updater built Dec  2 2013 18:43:44
-[2024-06-21 18:05:49] Checking for update on startup
-[2024-06-21 18:05:49] Checking for available update...
-[2024-06-21 18:05:49] Download failed: http error 0
