@@ -22,12 +22,16 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 | Conan Exiles        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/conan-exiles/)         |
 | Counter-Strike: Source | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-source)         |
 | Counter-Strike 2 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-2)         |
+| DayZ | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/dayz)         |
 | Enshrouded          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/enshrouded)         |
 | Left 4 Dead 2       | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead-2)         |
 | Left 4 Dead         | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead)         |
 | Palworld            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/palworld)         |
+| Satisfactory            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/satisfactory)         |
+| Sons of the Forest            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/sons-of-the-forest)         |
 | Soulmask            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/soulmask)         |
 | Sven Co-op          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/sven-co-op)         |
+| Team Fortress 2          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/team-fortress-2)         |
 | V Rising            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/v-rising)         |
 | Valheim             | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/valheim)         |
 

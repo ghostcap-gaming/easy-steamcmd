@@ -1,0 +1,7 @@
+APPID=223350
+STARTUP_COMMAND=DayZServer_x64.exe -config=serverDZ.cfg -port=2302 "-profiles=config" -cpuCount=2 -dologs -adminlog -netlog -freezecheck
+AUTO_UPDATE=1
+VALIDATE=0
+STEAM_LOGIN=REQUIRED
+STEAM_PASSWORD=REQUIRED
+
