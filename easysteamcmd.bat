@@ -19,6 +19,8 @@ for /f "tokens=1* delims==" %%a in (%configFile%) do (
         set steamLogin=%%b
     ) else if "%%a"=="STEAM_PASSWORD" (
         set steamPassword=%%b
+    ) else if "%%a"=="BETA_BUILD" (
+        set betaBuild=%%b
     )
 )
 
@@ -34,6 +36,7 @@ echo Startup Command: %startupCommand%
 echo Auto Update: %autoUpdate%
 echo Validate: %validate%
 echo Steam Login: %steamLogin%
+echo Beta Build: %betaBuild%
 echo __________________________________________________________________
 echo.
 
@@ -56,9 +59,17 @@ if "%steamLogin%"=="" (
 
 if "%autoUpdate%"=="1" (
     if "%validate%"=="1" (
-        %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% validate +quit
+        if "%betaBuild%"=="" (
+            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% validate +quit
+        ) else (
+            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% -beta %betaBuild% validate +quit
+        )
     ) else (
-        %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% +quit
+        if "%betaBuild%"=="" (
+            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% +quit
+        ) else (
+            %steamCmd% %loginCmd% +force_install_dir ../ +app_update %appid% -beta %betaBuild% +quit
+        )
     )
 )
 

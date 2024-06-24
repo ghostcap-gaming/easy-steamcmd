@@ -49,4 +49,5 @@ For Easy SteamCMD, we use one simple config file called `easysteamcmd-config.txt
 | **AUTO_UPDATE**     | This allows you to toggle auto updates on or off by changing it to 1 or 0. |
 | **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. 1 is on, 0 is off. |
 | **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games require you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
+| **BETA_BUILD** | **(OPTIONAL)** If you want to revert to a newer or older version of the game you can directly set the build id here. |
 
