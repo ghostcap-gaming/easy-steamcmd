@@ -19,6 +19,7 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 
 | Game                | Download Link         |
 |---------------------|-----------------------|
+| 7 Days To Die        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/7-days-to-die/)         |
 | Conan Exiles        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/conan-exiles/)         |
 | Counter-Strike: Source | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-source)         |
 | Counter-Strike 2 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-2)         |

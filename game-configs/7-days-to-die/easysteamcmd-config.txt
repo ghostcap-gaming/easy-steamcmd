@@ -1,0 +1,7 @@
+APPID=294420
+STARTUP_COMMAND=7DaysToDieServer.exe -configfile=serverconfig.xml -quit -batchmode -nographics -dedicated -ControlPanelEnabled=false
+AUTO_UPDATE=1
+VALIDATE=0
+STEAM_LOGIN=
+STEAM_PASSWORD=
+
