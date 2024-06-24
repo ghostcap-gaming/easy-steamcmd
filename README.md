@@ -11,7 +11,7 @@ Easy SteamCMD is specifically tailored for beginners and quick game server setup
 
 1. Download Easy SteamCMD from [here](https://github.com/ghostcap-gaming/easy-steamcmd/archive/refs/heads/main.zip).
 2. Place `easysteamcmd.bat` and `easysteamcmd-config.txt` into a folder where you want to install the game server.
-3. Edit `easysteamcmd-config.txt` with your game server `appid` and startup command.
+3. Edit `easysteamcmd-config.txt` with your game server `appid` and startup command or copy a pre-made config from the `game-configs` folder.
 4. Double-click `easysteamcmd.bat` and watch the magic.
 
 ## Supported Games
@@ -46,7 +46,7 @@ For Easy SteamCMD, we use one simple config file called `easysteamcmd-config.txt
 |---------------------|-------------------------------------------------------------------------------------------------------|
 | **APPID**           | The App ID for your game server. You can find these on sites like SteamDB. You can find a bunch of these pre-made here. |
 | **STARTUP_COMMAND** | The command that is used to start the game server. This is normally the .exe that is located once the game has finished downloading. You can find a bunch of these pre-made here. |
-| **AUTO_UPDATE**     | This allows you to toggle auto updates on or off by changing it to 1 or 0. If it's set to 0 you will have a chance to disable validation too. This is good if you have modified the game files. |
-| **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. |
+| **AUTO_UPDATE**     | This allows you to toggle auto updates on or off by changing it to 1 or 0. |
+| **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. 1 is on, 0 is off. |
 | **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games require you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
 
