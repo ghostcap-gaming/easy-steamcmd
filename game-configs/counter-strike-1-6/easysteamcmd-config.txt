@@ -1,0 +1,7 @@
+APPID=90
+STARTUP_COMMAND=hlds.exe -console -game cstrike -condebug -conclearlog -sv_lan 0 +maxplayers 10 +map de_dust2 +port 27015
+AUTO_UPDATE=1
+VALIDATE=0
+STEAM_LOGIN=REQUIRED
+STEAM_PASSWORD=REQUIRED
+BETA_BUILD=

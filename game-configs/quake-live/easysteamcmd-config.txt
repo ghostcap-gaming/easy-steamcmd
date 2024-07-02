@@ -1,0 +1,7 @@
+APPID=282440
+STARTUP_COMMAND=quakelive_steam.exe +set dedicated 1 +set sv_maxClients 20 +set net_port 27960 +set sv_hostname "Hosted With Easy SteamCMD" +set sv_serverType 2
+AUTO_UPDATE=1
+VALIDATE=0
+STEAM_LOGIN=REQUIRED
+STEAM_PASSWORD=REQUIRED
+BETA_BUILD=

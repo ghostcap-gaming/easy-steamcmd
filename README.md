@@ -21,6 +21,7 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 |---------------------|-----------------------|
 | 7 Days To Die        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/7-days-to-die/)         |
 | Conan Exiles        | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/blob/main/game-configs/conan-exiles/)         |
+| Counter-Strike 1.6 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-1-6)         |
 | Counter-Strike: Source | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-source)         |
 | Counter-Strike 2 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-2)         |
 | DayZ | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/dayz)         |
@@ -28,7 +29,9 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 | Left 4 Dead 2       | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead-2)         |
 | Left 4 Dead         | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead)         |
 | Palworld            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/palworld)         |
+| Quake Live            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/quake-live)         |
 | Satisfactory            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/satisfactory)         |
+| Soldat            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/soldat)         |
 | Sons of the Forest            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/sons-of-the-forest)         |
 | Soulmask            | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/soulmask)         |
 | Sven Co-op          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/sven-co-op)         |
@@ -48,6 +51,6 @@ For Easy SteamCMD, we use one simple config file called `easysteamcmd-config.txt
 | **STARTUP_COMMAND** | The command that is used to start the game server. This is normally the .exe that is located once the game has finished downloading. You can find a bunch of these pre-made here. |
 | **AUTO_UPDATE**     | This allows you to toggle auto updates on or off by changing it to 1 or 0. |
 | **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. 1 is on, 0 is off. |
-| **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games require you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
-| **BETA_BUILD** | **(OPTIONAL)** If you want to revert to a newer or older version of the game you can directly set the build id here. |
+| **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games **require** you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
+| **BETA_BUILD** | **(OPTIONAL)** If you want to revert to a newer or older version of the game you can directly set the build id here. Also known as a branch. |
 
