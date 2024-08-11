@@ -25,6 +25,7 @@ We have a bunch of pre-made config files you can use [here](https://github.com/g
 | Counter-Strike: Source | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-source)         |
 | Counter-Strike 2 | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/counter-strike-2)         |
 | DayZ | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/dayz)         |
+| Deadlock | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/deadlock)         |
 | Enshrouded          | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/enshrouded)         |
 | Left 4 Dead 2       | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead-2)         |
 | Left 4 Dead         | [Download](https://github.com/ghostcap-gaming/easy-steamcmd/tree/main/game-configs/left-4-dead)         |
