@@ -1,5 +1,5 @@
 APPID=1422450
-STARTUP_COMMAND=game\bin\win64\project8.exe -dedicated +hostname "Hosted With Easy SteamCMD" +sv_password "private"
+STARTUP_COMMAND=game\bin\win64\project8.exe -dedicated -game citadel +map 1v1_test +hostname "Hosted By Game Host Bros" +sv_password "private"
 AUTO_UPDATE=1
 VALIDATE=0
 STEAM_LOGIN=
