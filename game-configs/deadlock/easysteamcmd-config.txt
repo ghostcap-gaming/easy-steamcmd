@@ -1,5 +1,5 @@
 APPID=1422450
-STARTUP_COMMAND=game\bin\win64\project8.exe -dedicated +ip 0.0.0.0 -port 27015 -insecure -game citadel +map 1v1_test
+STARTUP_COMMAND=game\bin\win64\project8.exe -dedicated +ip 0.0.0.0 -port 27015 -insecure -allow_no_lobby_connect -game citadel +map 1v1_test
 AUTO_UPDATE=1
 VALIDATE=0
 STEAM_LOGIN=
