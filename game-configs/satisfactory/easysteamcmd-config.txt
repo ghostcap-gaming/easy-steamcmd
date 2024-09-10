@@ -1,5 +1,5 @@
 APPID=1690800
-STARTUP_COMMAND=FactoryServer.exe -multihome=0.0.0.0 -⁠ServerQueryPort=15000 -⁠BeaconPort=15001 -Port=15002 -log -unattended
+STARTUP_COMMAND=FactoryServer.exe -Port=7777 -log -unattended
 AUTO_UPDATE=1
 VALIDATE=0
 STEAM_LOGIN=
