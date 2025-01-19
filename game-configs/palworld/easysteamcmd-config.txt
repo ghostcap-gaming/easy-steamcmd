@@ -1,5 +1,5 @@
 APPID=2394010
-STARTUP_COMMAND=PalServer.exe -ServerName="Hosted With Easy SteamCMD" -port=8211 -players=32 -log -nosteam -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS EpicApp=PalServer
+STARTUP_COMMAND=PalServer.exe -ServerName="Hosted With Easy SteamCMD" -port=8211 -players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
 AUTO_UPDATE=1
 VALIDATE=0
 STEAM_LOGIN=
