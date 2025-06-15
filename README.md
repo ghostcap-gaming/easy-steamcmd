@@ -1,11 +1,13 @@
 # Easy SteamCMD
 
+⚠️ **MAINTENANCE NOTICE**: We have stopped actively maintaining this project and will not be adding new features or games to it. The existing functionality should continue to work as long as x86 architecture is supported. Game configs are easy enough to edit manually if needed.
+
 Easy SteamCMD is specifically tailored for beginners and quick game server setup. All you need to do is set 2 config options, run it, and Easy SteamCMD does the rest.
 
 - Automatically downloads and extracts SteamCMD, saving time and effort.
 - Easily configure your game's startup command.
 - Checks if your server requires an update when starting and updates it accordingly.
-- No need for advanced scripting knowledge or for “Gurus” to release server software for your game.
+- No need for advanced scripting knowledge or for "Gurus" to release server software for your game.
 
 ## How To Install
 
@@ -55,4 +57,3 @@ For Easy SteamCMD, we use one simple config file called `easysteamcmd-config.txt
 | **VALIDATE**     | Validates all the files on the server. Only use this if you need to restore modified files back to their original state. 1 is on, 0 is off. |
 | **STEAM_LOGIN/STEAM_PASSWORD** | **(OPTIONAL)** Some games **require** you to use your Steam account to verify you own the game. Simply enter your Steam username and password here. |
 | **BETA_BUILD** | **(OPTIONAL)** If you want to revert to a newer or older version of the game you can directly set the build id here. Also known as a branch. |
-
